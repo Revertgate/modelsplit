@@ -21,7 +21,14 @@ claude plugin install modelsplit@modelsplit-local --scope local
 <path to the unpacked folder>/plugin/bin/modelsplit board demo
 ```
 
-Windows and Linux (x64) are built. macOS is not yet.
+Built for Windows (x64), Linux (x64) and macOS (Apple Silicon and Intel).
+
+The macOS binaries are not signed by Apple. After unpacking, clear the download flag once, or
+macOS will refuse to run them:
+
+```bash
+xattr -dr com.apple.quarantine <path to the unpacked folder>
+```
 
 ## Use
 
