@@ -1,0 +1,22 @@
+modelsplit licence
+
+Copyright (c) 2026 the Revertgate authors. All rights reserved.
+
+You may use modelsplit and the binaries in this release on your own computers, without charge,
+for its free features: the demo, lean workers, single cards, the board and cost views, the
+context engine, and the local dashboard without traces.
+
+Board automation (board plan, board run all, board resume) and traces in the dashboard require an
+active Revertgate subscription, with its licence key supplied in the environment variable
+REVERTGATE_LICENSE_KEY. One subscription covers both Revertgate and modelsplit.
+
+You may not redistribute, sell, sublicense, modify or reverse engineer the binaries, or remove or
+work around their licence check.
+
+modelsplit runs Claude Code, which you use under your own Anthropic account and Anthropic's terms.
+Model usage is billed to that account; modelsplit's cost figures are estimates.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
